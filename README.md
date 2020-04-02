@@ -1,5 +1,6 @@
 #  travis demo
-
+[![Coverage Status](https://coveralls.io/repos/github/Sakshisrivastava413/bluegenes-travis-demo/badge.svg?branch=ci)](https://coveralls.io/github/Sakshisrivastava413/bluegenes-travis-demo?branch=ci)
+[![Build Status](https://travis-ci.com/Sakshisrivastava413/bluegenes-travis-demo.svg?branch=master)](https://travis-ci.com/Sakshisrivastava413/bluegenes-travis-demo)
 travis demo is a tool made for [BlueGenes](http://bluegenes.apps.intermine.org) following BlueGenes Tool API.
 Add more description of your tool here! :)
 
