@@ -6,6 +6,8 @@
   "homepage": "http://www.intermine.org",
   "scripts": {
     "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:coveralls": "jest --coverage && coveralls < coverage/lcov.info",
     "build": "./node_modules/.bin/webpack",
     "dev": "node dev/serve.js",
     "webpack:dev:build": "./node_modules/.bin/webpack --mode=development",
@@ -42,6 +44,7 @@
     "@types/jest": "^24.0.13",
     "babel-loader": "^8.0.6",
     "chokidar": "^3.0.0",
+    "coveralls": "^3.0.11",
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^4.2.0",
     "eslint-plugin-import": "^2.17.2",
